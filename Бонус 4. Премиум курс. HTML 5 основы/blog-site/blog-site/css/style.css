@@ -64,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 	.content-main{
 		width:960px; margin:0 auto; overflow:hidden; padding:0 15px;
 	}
-		.content{
+		main {
 			float:left; width:615px; 
 		}
 
@@ -102,9 +102,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 					header img{
 						vertical-align:middle;
 					}
-					/*.articles-date{
+					/*.articles-date{*/
 						float:left;
-					}*/
+					}
 						.articles-date span{
 							color:#eb4900;
 						}
@@ -140,7 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 			.pager span{
 				padding:0 7px; float:left;
 			}
-	.sidebar-main{
+	aside {
 		float:right; width:300px; 
 	}
 		.sidebar-widget{
