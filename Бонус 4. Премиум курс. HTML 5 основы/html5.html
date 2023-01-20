@@ -7,29 +7,20 @@
 <body>
 
 	<header>
-		<h1>Формы в HTML 5</h1>
+		<h1>Видео в HTML 5</h1>
 	</header>
 
 	<section>
-		<form>
-			<!-- <input type="number" name="num" min="2" max="20" step="4"> <br> <br> -->
-			<!-- <input type="range" name="num" min="2" max="20" step="1"> <br> <br> -->
-			<!-- <input type="text" name="search" placeholder="Поиск" list="search"> <br> <br>
-			<datalist id="search">
-				<option value="Алматы"></option>
-				<option value="Астана"></option>
-				<option value="Шымкент"></option>
-				<option value="Усть-каменогорск"></option>
-			</datalist> -->
-			<!-- <input type="color"> <br> <br> -->
-			<!-- <input type="date" name="date"> <br> <br>
-			<input type="time" name="time"> <br> <br>
-			<input type="datetime-local" name="time"> <br> <br>
-			<input type="month" name="month"> <br> <br>
-			<input type="week" name="week"> <br> <br> -->
-			<progress max="100" value="70" ></progress> <br> <br>
-			<input type="submit" value="Отправить"> 
-		</form>
+		
+		<video controls="controls"  width="640" poster="video/v99.jpg" loop="loop" preload="preload" autoplay="autoplay">
+			<source src="video/v99.mp4" type="video/mp4">
+			<source src="video/v99.ogv" type="video/ogg">
+			<source src="video/v99.webm" type="video/webm">
+
+			<p>Ваш браузер не может воспроизводить видео. <a href="#">скачать</a></p>
+		</video>
+
 	</section>
+	
 </body>
 </html>
