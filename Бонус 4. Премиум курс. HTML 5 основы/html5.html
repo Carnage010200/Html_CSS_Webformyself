@@ -3,22 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Html 5 документ</title>
-
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-	<style>
-		header {
-			color: #ff0000;
-		}
-	</style>
 </head>
 <body>
 
 	<header>
-		<h1>Текст заголовка страницы</h1>
+		<h1>Формы в HTML 5</h1>
 	</header>
 
+	<section>
+		<form>
+			<!--<input type="email" name="email"> <br> <br>-->
+			<!--<input type="tel" name="tel"> <br> <br>-->
+			<!--<input type="url" name="url"> <br> <br>-->
+			<!--<input type="search" name="search"> <br> <br>-->
+			<!--<input type="email" name="email" required="required"> <br> <br>-->
+			<!--<input type="tel" name="tel" placeholder="+7 707 157 05 05"> <br> <br>-->
+			<!--<input type="text" name="text" maxlength="10"> <br> <br>-->
+			<input type="text" name="email" required="required" pattern="" placeholder="mail@mail.ru"> <br> <br>
+			<input type="submit" value="отправить">
+		</form>
+	</section>
 </body>
 </html>
